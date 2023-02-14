@@ -33,7 +33,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Install dependencies
-        uses: actions/actions/setup-node@v3
+        uses: actions/setup-node@v3
       - run: npm ci
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
