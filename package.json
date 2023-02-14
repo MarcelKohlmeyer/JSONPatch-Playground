@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsonpatch": "^3.1.0",
+    "monaco-editor": "^0.35.0"
+  }
+}
