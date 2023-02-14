@@ -22,8 +22,12 @@
             } catch {}
         };
 
+        // Register events:
         inputEditor.onKeyUp(patch);
         JSONPatchEditor.onKeyUp(patch);
+
+        // initial patch:
+        patch();
     }
 
     const initEditors = (inputContainer, outputContainer, JSONPatchContainer) => {
